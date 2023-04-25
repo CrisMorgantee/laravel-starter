@@ -23,15 +23,6 @@ class ProfileController extends Controller
         ]);
     }
 
-    public function foo()
-    {
-        $bla = ['a', 'b', 'c', 'd', 'e', 'f']['b'];
-        $bla ??= [];
-        fn() => $bla;
-
-        return $bla;
-    }
-
     /**
          * Update the user's profile information.
          */
