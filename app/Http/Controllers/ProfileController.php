@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ProfileUpdateRequest;
@@ -21,9 +23,18 @@ class ProfileController extends Controller
         ]);
     }
 
+    public function foo()
+    {
+        $bla = ['a', 'b', 'c', 'd', 'e', 'f']['b'];
+        $bla ??= [];
+        fn() => $bla;
+
+        return $bla;
+    }
+
     /**
-     * Update the user's profile information.
-     */
+         * Update the user's profile information.
+         */
     public function update(ProfileUpdateRequest $request): RedirectResponse
     {
         $request->user()->fill($request->validated());
