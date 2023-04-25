@@ -1,5 +1,15 @@
+# Boilerplate Laravel to initialize a application faster.
 
-[![CI Main](https://github.com/CrisMorgantee/hey-professor/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/CrisMorgantee/hey-professor/actions/workflows/ci.yml)
-[![CI Develop](https://github.com/CrisMorgantee/hey-professor/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/CrisMorgantee/hey-professor/actions/workflows/ci.yml)
+## What is inside?
 
-# Hey Professor
+### This project uses lot of stuff as:
+
+- [Laravel](https://laravel.com)
+- [Laravel Pint](https://github.com/laravel/pint)
+- [Laravel DebugBar](https://github.com/barryvdh/laravel-debugbar)
+- [Pest](https://pestphp.com/)
+- [Larastan](https://github.com/nunomaduro/larastan)
+- [Vite](https://vitejs.dev)
+- [Tailwind CSS](https://tailwindcss.com)
+
+and other cool stuffs.
